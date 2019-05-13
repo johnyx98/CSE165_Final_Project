@@ -27,6 +27,8 @@ GlutApp::GlutApp(int argc, char** argv, int width, int height, const char* title
     glEnable (GL_DEPTH_TEST);
     glEnable (GL_POINT_SMOOTH);
     glEnable (GL_LINE_SMOOTH);
+	//glEnable(GL_BLEND);
+	//glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
     glHint (GL_LINE_SMOOTH_HINT, GL_NICEST);
     glHint (GL_POINT_SMOOTH_HINT, GL_NICEST);
     glPointSize (4);
